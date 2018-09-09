@@ -1,0 +1,49 @@
+nav{
+    z-index: 100;
+    left: 0;
+    right: 0;   
+    border-bottom:1px solid rgba(255,255,255,0.4) ;
+}
+nav li:hover{
+border-bottom: 2px solid blue;
+}
+nav li:active{
+    border-bottom: 2px solid blue;
+}
+nav li:first-child{
+    margin-left: 200px;
+}
+nav li a:hover{
+    color: #007bff !important;
+}
+nav li{
+    margin-top:12px;
+}
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background:rgb(33, 162, 237,0.8);
+ 
+     
+}
+.carousel-caption{
+bottom: 50%;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.h224{
+    font-size: 24px;
+}
+.p16{
+    font-size: 18px;
+}
